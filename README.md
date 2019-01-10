@@ -13,20 +13,12 @@ running a block explorer and wallet service.
 ## Development Resources
 
 - PungoToken Website: [https://pungotoken.com](https://pungotoken.com/)
-- PungoToken Blockexplorer: [https://explorer.pungotoken.build](https://explorer.pungotoken.com)
+- PungoToken Blockexplorer: [https://explorer.pungotoken.com](https://explorer.pungotoken.com)
 - PungoToken Telegram: [https://t.me/pungotalk](https://t.me/pungotalk)
 - PungoToken Node Addresses:  190.114.254.103, 190.114.254.104
-- PungoToken Electrum Servers Addresses: agama.komodo.build:10001 agama2.komodo.build:10001
+- PungoToken Electrum Servers Addresses: electrum1.pungo.cloud:10002 electrum2.pungo.cloud:10002
 
 ## Getting started
-
-### Minimum requirements
-
-- GNU/Linux x86_32/x86_64, or OSX 64bit *(for bitcoind distributed binaries)*
-- Node.js v0.10, v0.12 or v4
-- ZeroMQ *(libzmq3-dev for Ubuntu/Debian or zeromq on OSX)*
-- ~200GB of disk storage
-- ~8GB of RAM
 
 ### Dependencies
 
@@ -36,6 +28,14 @@ Before installing Bitcore node you should install NodeJS and NPM manager:
 #The following packages are needed:
 sudo apt-get install -yq nodejs=4.2.6~dfsg-1ubuntu4.2 npm libzmq3-dev
 ```
+
+### Minimum system requirements
+
+- GNU/Linux x86_32/x86_64, or OSX 64bit *(for bitcoind distributed binaries)*
+- Node.js v0.10, v0.12 or v4
+- ZeroMQ *(libzmq3-dev for Ubuntu/Debian or zeromq on OSX)*
+- ~200GB of disk storage
+- ~8GB of RAM
 
 ### Install
 
