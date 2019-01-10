@@ -34,7 +34,7 @@ Before installing Bitcore node you should install NodeJS and NPM manager:
 
 ```shell
 #The following packages are needed:
-sudo apt-get install -yq nodejs=4.2.6~dfsg-1ubuntu4.2 npm
+sudo apt-get install -yq nodejs=4.2.6~dfsg-1ubuntu4.2 npm libzmq3-dev
 ```
 
 ### Install
